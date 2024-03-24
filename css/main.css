@@ -1,0 +1,148 @@
+/*
+*Adithyan Jyothish Nair
+* Student No : 8981148
+*/
+
+body {
+    width: 90%;
+    max-width: 90%;
+    margin: auto;
+    font: 1rem Arial;
+    color: #000000;
+    padding: 10px;
+    background-image: Linear-gradient(#8e8e8e, #949b97,#e21833);
+}
+
+.ok {
+    border: 2px rgb(0, 106, 255) solid;
+    padding: 5px;
+    margin: auto;
+    clear: both;
+    text-align: center;
+    background-image: Linear-gradient(#222222, #ff6bab,#d9a956);
+}
+
+h1 , h2 {
+    color: #2e2e31;
+    font-variant: small-caps;
+}
+
+footer p {
+    font-size: smaller;
+    color: rgb(255, 255, 255);
+}
+
+aside {
+    float: right;
+    width: 300px;
+    padding: 5px;
+    margin: auto;
+    background-image: url("../images/183738_La_McLaren_F1_de_Mr_Bean_est_en_vente.jpg");
+    background-size:contain;
+}
+
+main {
+    float: left;
+    width: 67%;
+    padding: 5px;
+    margin: auto;
+}
+
+main p{
+    display: inline;
+}
+.mainimg {
+    height: 200px;
+    width: auto;
+    float: left;
+    border: 5px white solid ;
+    shape-outside: polygon(-0.23% -0.27%, 100.41% -0.03%, 99.46% 100.19%, 0.38% 99.25%);
+}
+
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+q {
+    font-family: cursive;
+    font-style: italic;
+    font-size: large;
+}
+
+ul li {
+    list-style:none ;
+    line-height: 2rem;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+aside a:hover {
+    color: rgb(61, 255, 61);
+    border-radius: 10px;
+    background-color: #343252;
+}
+
+.navigation {
+    display: flex;
+    margin: 1rem 0;
+    background-color: #020024;
+    height: 2rem;
+    line-height: 2rem;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+}
+
+.navigation a{
+    text-decoration: none;
+    text-align: center;
+    color: #eae9fc;
+    font-size: 1rem;
+    font-weight: 700;
+    flex: 100% 1 1;
+
+}
+
+.navigation a:hover{
+    background-color: #51f334;
+    color: #020024;
+}
+.container{
+    padding-left: 150px;
+    padding-bottom: 20px;
+    height: 394px;
+    width: 700px;
+}
+
+.imagegrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.imagegrid img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    clip-path: polygon(5.6% 3.6%, 52.89% 6.11%, 102% 3.4%, 94.68% 48.97%, 100.00% 99.40%, 38.46% 90.09%, 3% 93%, 10.27% 48.97%);
+}
+
+input[type=text], 
+input[type=email],
+input[type=submit],
+select, option,textarea{
+    width: 50%;
+    display: block;
+    height: 2em;
+}
+
+th,td {
+    border: 5px solid rgb(0, 0, 0);
+}
+
+table{
+    clear: both;
+}
